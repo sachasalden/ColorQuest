@@ -1,0 +1,35 @@
+:root {
+    /* Base colors */
+    --white: #ffffff;
+    --carbon: #060606;
+
+    /* Game colors */
+    --red: #fb2c37;
+    --orange: #ff6900;
+    --yellow: #f0b200;
+    --green: #00c951;
+    --blue: #00a6f5;
+    --purple: #8e51ff;
+    --pink: #f7339a;
+
+    /* Fonts */
+    --heading-font: 'Hubot Sans', sans-serif;
+    --body-font: 'Figtree', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--carbon);
+    color: var(--white);
+    font-family: var(--body-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+button {
+    font-family: var(--heading-font);
+    cursor: pointer;
+}
